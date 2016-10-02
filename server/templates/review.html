@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+FILE NAME: review.html
+WRITTEN BY: Sherry Xu
+DATE: 10/01/2016
+PURPOSE: WHACK
+-->
+
+<head>
+	
+	<meta charset="utf-8">
+    <meta name="author" content="REVIEW">
+    <link rel= "stylesheet" type= "text/css" href = "../style/style.css">
+    <title>Review</title>
+
+</head>
+
+<body>
+
+	<h1 style = "color: black;" class = "review-header">Write a Review!</h1>
+
+	<form action ="/review.html" method="POST">
+  		First name:<br>
+  		<input type ="text" name="firstname"><br>
+  		Location<br>
+  		<select name = "location">
+  		<option value="Alumnae Hall">Alumnae Hall</option>
+  		<option value="Founders">Founders</option>
+ 		<option value="Green Hall">Green Hall</option>
+  		<option value="Jewett">Jewett</option>
+  		<option value="Keohane Sports Center">Keohane Sports Center</option>
+  		<option value="Lulu Wang Campus Center">Lulu Wang Campus Center</option>
+  		<option value="Pendleton">Pendleton</option>
+  		<option value="Science Center">Science Center</option>
+		</select>
+		<br>
+  		Comments
+  		<br>
+  		<textarea name = "comment" rows="4" cols="50">
+		</textarea><br>
+  		How many stars would you give this location?
+  		<select name = "stars">
+  		<option value= 0 > 0</option>
+  		<option value= 1 > 1</option>
+ 		<option value= 2 > 2</option>
+ 		<option value= 3 > 3</option>
+  		<option value= 4 > 4</option>
+ 		<option value= 5 > 5</option>
+ 		<option value= 6 > 6</option>
+  		<option value= 7 > 7</option>
+ 		<option value= 8 > 8</option>
+ 		<option value= 9 > 9</option>
+  		<option value= 10 >10</option>
+		</select>
+  		<input type="submit" value="Send">
+	</form>
+
+</body>
+
+<html>

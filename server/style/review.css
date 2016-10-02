@@ -1,0 +1,88 @@
+/*
+FILE NAME: style.css
+WRITTEN BY: Sherry Xu
+DATE: Sept 29, 2016
+PURPOSE: Lab 05
+*/
+
+body {
+    background-color: #9be0dd;
+    color: blue;
+}
+
+#wrapper {
+	width: 700px;
+	margin: auto;
+	background: url("images/places/campus-walk.jpg");
+	border: 10px solid darkred;
+	padding: 50px;
+	background-color: yellow;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 30pt;
+	font-style: italic;
+	font-family: "Georgia", sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20pt;
+	font-style: italic;
+	font-family: "Georgia", sans-serif;
+	text-align: center;
+}
+
+h3 {
+	font-size: 10pt;
+	font-style: italic;
+	font-family: "Georgia", sans-serif;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: blue;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: white;
+	color: blue;
+	}
+
+ul {
+	list-style-type:none;
+	line-height:180%;
+}
+
+#wrapper img{
+	border-radius:10px;
+}
+
+.centerP{
+	text-align: center;
+}
+
+.centerImg{
+	display: block;
+	margin: auto;
+}
+
+.tiltleft {
+	transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+}
+
+.tiltright {
+	transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+}

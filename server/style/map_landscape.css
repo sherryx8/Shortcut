@@ -1,0 +1,22 @@
+form {
+	margin-top: 5px;
+	background-color: #f0f0f0;
+	border: 1px solid gray;
+	border-radius: 15px;
+	box-shadow: inset 0 0 4px 1px gray;
+  width::50px;
+}
+
+#map {
+  width: 800px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left:100px;
+  border-radius:10px;
+}
+
+#to-link, #from-link{
+  font-family: 'Assistant', sans-serif;
+  font-stretch: semi-expanded;
+  color:#35765b;
+}

@@ -1,0 +1,371 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 420px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 45px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    background: url("../style/rail_park.gif") no-repeat center center;
+    background-size: cover;
+    background-color: #ccc;
+}
+
+.intro-header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    margin: 0;
+    filter: blur(5px);
+
+
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    z-index: 2;
+    padding-bottom: 10%;
+}
+
+.intro-message > h1 {
+    margin:0;
+    font-size: 5em;
+    color:gray;
+
+}
+
+.tagline {
+    font-size: 25pt;
+    padding: 0pt 0pt 10pt;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.intro-message > h3 {}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 5%;
+    }
+    .intro-message > h1 {
+        font-size: 20pt;
+    }
+    .tagline {
+        font-size: 0.5em;
+    }
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 10px 0;
+    color:black;
+    background-size: cover;
+    background-color: #ccc;
+    height: 70%;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 3em;
+    color: black;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+h1.big {
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dropdown-li {
+    color: black;
+}
+
+
+#branner-row {
+    margin: 30px 0px;
+    padding: 20px 0px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+blockquote {
+    font-weight: 200;
+    height: 200px;
+    padding: 10% 10%;
+    line-height: 180%;
+}
+
+h1.no-padding {
+    padding: 0;
+    text-align: center;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    background-color: white;
+}
+
+.carousel-caption h3 {
+    font-size: 1.5em;
+    color: black;
+    text-shadow: none;
+}
+
+.signup-block {
+    padding: auto;
+    margin:auto;
+}
+
+.carousel-caption p span {
+    font-size: 13pt;
+    font-weight: 200;
+    line-height: 30%;
+    color: black;
+    text-shadow: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none
+}
+
+.carousel-caption p {
+    width: 100%;
+    margin: auto;
+    line-height: 80%;
+}
+
+h2.question {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.input-block{
+    display: flex;
+    flex-direction: row;
+
+}
+.center-table {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.slide1 {
+    background-image: url("../style/iPhone 6 Gold.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 30px 0px;
+}
+
+.slide2 {
+    background-image: url("yellow.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 30px 0px;
+}
+
+.slide3 {
+    background-image: url(../img/general.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 30px 0px;
+}
+
+input[type="text"] {
+    padding: 10px 0px;
+    line-height: 10px;
+}
+
+button {
+    border-radius: 4px;
+}
+
+#button-div{
+    margin-top: 10px;
+}
+
+.icon-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-block img {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.carousel-caption h1 {
+    font-size: 5.4em;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: .4em;
+}
+
+.carousel-caption p {
+    font-size: 2em;
+    width: 50%;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: black;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+@media(max-width:800px) {
+    .banner h2 {
+        margin: 0;
+        /*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);*/
+        font-size: 2em;
+        text-align: center;
+    }
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    blockquote {
+        width: 300px;
+        margin: auto;
+        padding: 10% 0%;
+    }
+    h1.big {
+        font-size: 2em;
+    }
+    .branner {
+        background-size: cover;
+    }
+    .icon-block img {
+        width: 20px;
+        height: 20px;
+        align-self: center;
+    }
+    input[type="text"] {
+        padding: 5px 5px;
+        line-height: 5px;
+    }
+
+    #branner-row h2{
+        font-size: 1.5em;
+        padding: 3px;
+    }
+
+    .branner{
+            height: 60%;
+    }
+
+
+}
